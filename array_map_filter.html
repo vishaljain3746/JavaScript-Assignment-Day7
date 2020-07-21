@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+        <body>
+            <script>
+    let n=prompt("enter the length of array"," ");
+    console.log(`The lenhth of the arry are ${n}`);            
+    let names = new Array();
+    for(i=0;i<n;i++){
+        names[i] = prompt("Enter an item "," ");
+       console.log(`The elements are ${names[i]}`);
+    }
+    let cube=names.map(function(el){
+        return el**3;
+    });
+    let odd=names.filter(el=>el!=0);
+    console.log(`The odd elements fronm the array ${odd}`);
+    console.log(`Ther cubes of the array ${cube}`);
+    console.log
+    
+            </script>
+        </body>
+    </head>
+</html>
